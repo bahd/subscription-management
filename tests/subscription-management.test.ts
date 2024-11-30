@@ -1,11 +1,5 @@
 import { describe, it, expect } from "vitest";
-import {
-  Clarinet,
-  Tx,
-  Chain,
-  Account,
-  types,
-} from "https://deno.land/x/clarinet@v1.5.0/index.ts";
+import { Clarinet, Tx, types } from "https://deno.land/x/clarinet@v1.8.0/index.ts";
 
 describe("Subscription Management Contract", () => {
   it("creates a new subscription", async () => {
